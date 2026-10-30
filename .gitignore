@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+# Keep downloaded/raw and generated datasets out of Git unless intentionally approved.
+dataset/*.parquet
+dataset/processed/*.csv
+# Local exports and temporary files
+*.log
+.DS_Store
+Thumbs.db
